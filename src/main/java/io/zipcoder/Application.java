@@ -53,9 +53,9 @@ public class Application {
             petList.add(pet);
         }
 
-        //Collections.sort(petList, new PetComparator());
+        Collections.sort(petList, new PetComparator());
 
-        Collections.sort(petList);
+        //Collections.sort(petList);
 
         String result = Arrays.toString(petList.toArray());
 
